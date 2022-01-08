@@ -1,0 +1,195 @@
+.containerr{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 450px 450px;
+    margin-top: 15px;
+    justify-content: center; 
+}
+
+
+.taxi-img{
+    min-width: 300px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 26.8rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.p-ftf{
+    color: white;
+    font-size: 3rem;  
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;  
+    text-align: center;
+}
+
+.p-welcome{
+    color: white;
+    font-size: 4rem;  
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+.div-formLogin{
+    height: 28rem;
+    width: 100%;
+    min-width: 300px;
+
+    
+}
+
+.EyeOutLined{
+    cursor: pointer;
+}
+
+.formItem{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.formItem input{
+    width: 40%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.divShowPassword{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divShowPassword input{
+    width: 39%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.divShowPassword input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid skyblue;
+}
+.divShowPassword input::-webkit-input-placeholder { 
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+
+    }
+
+.formItem input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid skyblue;
+}
+
+
+.formItem input::-webkit-input-placeholder { 
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+
+    padding-top: 2px;
+
+    }
+.LoginForm{
+    width: 100%;
+    height: 18rem;
+    padding: 1rem;
+}
+
+.up{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid white;
+    
+}
+
+.img img{
+    width: 75px;
+    height: 75px;
+}
+
+
+.up h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.warning-Login{
+
+    width: 80%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid rgb(240, 51, 51);
+}
+
+.warningP{
+    color: red;
+    display: block;
+    text-align: center;
+}
+
+.warning-login{
+    color: red;
+    text-align: center;
+}
+
+.btn-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.forgat-pass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:15px 0px ;
+}
+
+.forgat-pass p {
+    color: #c7c5c5;
+    cursor: pointer;
+}
+
+.forgat-pass p:hover{
+    color: skyblue;
+}
+
+@media(max-width : 750px){
+    .containerr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .taxi-img{display: none;}
+    .formItem input{
+        width: 50%;
+    }
+    .divShowPassword input{
+        width: 49%;
+    }
+    
+}

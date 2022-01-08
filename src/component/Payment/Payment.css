@@ -1,0 +1,77 @@
+/* th span{
+    cursor: pointer;
+}
+
+.table th{
+    background-color: aqua;
+}
+.divtable{
+    overflow-x: auto;
+}
+
+.divpayment{
+    background-color: white;
+    width: 100%;
+    padding: 5px;
+    
+}
+.divpayment h3{
+    margin-left: 10px;
+} */
+
+#myInput {
+  width: 150px;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+
+}
+
+#myTable th, #myTable td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+.search-bar{
+    background-color: white;
+    width: 250px;
+    border: 1px solid #dcdcdc;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    margin-bottom: 1rem;
+}
+
+.search-bar span {
+  border: 1px solid #1890ff;
+  background-color: #1890ff;
+  color: white;
+  padding: 5px;
+  border-radius: 25px;
+  margin: 2px;
+}
+
+.table-payment{
+  width: 100%;
+  height: 60vh;
+  overflow-y: auto;
+  overflow-x: auto;
+}

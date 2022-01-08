@@ -1,0 +1,88 @@
+/* ---------------------------------Complain------------------------------- */
+.container-complain{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 20px;
+    margin-top: 2rem;
+}
+.divcomplain{
+    margin-top: 1rem;
+    width: 100%;
+
+    background-color: white;
+    margin: 10px;
+
+}
+
+.divcomplain:hover{
+    box-shadow: 0 5px 8px rgba(53, 53, 53, 0.7);
+}
+
+.div-header{
+    border-bottom: 1px solid #dcdcdc;
+    padding: 10px;
+}
+
+.divIcon{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* --------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------Formcomplain------------------------------- */
+
+.divForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formcomplain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px;
+    padding: 5px;
+
+}
+@media (max-width: 750px) {
+    .formcomplain{
+        flex-direction: column;
+    }
+    .container-complain{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+input{
+    outline: none;
+    border: 1px solid #dcdcdc;
+    padding: 5px;
+    width : 70%;
+}
+@media (max-width: 750px) {
+    input{
+      width: 100%;
+    }}
+
+
+
+.btn{
+    margin-left: 5px;
+}
+
+.warningInput{
+    border: 1px solid rgb(240, 51, 51);
+    background-color: rgb(247, 160, 160);
+}
+
+
+/* --------------------------------------------------------------------------------- */
+

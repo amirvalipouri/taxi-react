@@ -1,0 +1,129 @@
+.carList{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 20px;
+    justify-content: center;
+    overflow-x: hidden;
+    margin-top: 2rem;
+}
+
+/* @media (max-width: 750px) {
+    .carList{
+      flex-direction: column;
+    }} */
+.container{
+    overflow-x: hidden;
+}
+.Card-car{
+    width: 100%;
+    min-width: 300px;
+    height: 24rem;
+    background-color: white;
+    margin: 5px;
+    display: inline-block;
+    
+}
+.Card-car:hover{
+    box-shadow: 0 5px 8px rgba(53, 53, 53, 0.7);
+}
+.detail-car{
+    text-align: center;
+    height: auto;
+
+}
+.Card-car img{
+    width: 100%;
+    height: 15rem;
+}
+
+
+.divForm-Car{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 100%;
+    min-width: 400px;
+}
+
+.divForm-Car form {
+    box-shadow: 2.3px 4.6px 4.6px hsl(0deg 0% 0% / 0.43);
+
+    border-radius: 10px;
+}
+.CarForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.CarForm-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+@media (max-width: 750px) {
+    .CarForm{
+      flex-direction: column;
+    }
+    input{
+        width: 100%;
+    }
+    .carList{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .divForm-Car{
+        width: 100%;
+    }
+}
+    
+
+input{
+    outline: none;
+    border: 1px solid #dcdcdc;
+    padding: 5px;
+    width : 70%;
+}
+
+
+
+form{
+    width: 60%;
+    background-color: white;
+    padding: 15px;
+}
+.formButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.warningInput{
+    border: 1px solid rgb(240, 51, 51);
+    background-color: rgb(228, 172, 172);
+}
+
+.deletebtn-car{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Car-img{
+    display: flex;
+    justify-content: center;
+}
+.Car-img img {
+    width: 250px;
+    height: 250px;
+}

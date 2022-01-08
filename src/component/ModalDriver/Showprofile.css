@@ -1,0 +1,155 @@
+.container-showdriver{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: none;
+}
+.cardItem-showdriver{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding : 0px 10px;
+}
+
+.cardItem-showdriver h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card-title-showdriver{
+    border: 1px solid #DCDCDC;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    transition: all 0.5s;
+}
+
+.card-title-showdriver h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.card-title-showdriver:hover {
+    transform:translate(0px , -5px);
+}
+
+
+
+.driver-photo-showdriver{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 1rem;
+}
+.driver-photo-showdriver img{
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+}
+
+.driver-photo-showdriver h2{
+    font-family: 'Libre Baskerville', serif;
+    margin-left: 1rem;
+    font-weight: 700;
+}
+
+
+.driver-information{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.driver-information h3 {
+    display: inline;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.driver-information span {
+    margin-bottom: 10px;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #DCDCDC;
+    margin: auto;
+    width: 80%;
+}
+
+.Card-showdriver{
+    width: 80%;
+    height: 100%; 
+    box-shadow: none;
+    margin: auto;
+}
+.divre-doc-showdriver{
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: #1890ff;
+    padding: 10px;
+    transition: all 0.7s;   
+}
+
+.divre-doc-showdriver h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.divre-doc-showdriver p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+}
+
+.divre-doc-showdriver:hover {
+    transform: translate(0px , -5px);
+}
+
+.divre-doc-showdriver h3{
+    color: white;
+}
+
+.card-body-showdriver{
+    height: 100%;
+}
+
+
+
+@media (max-width : 550px){
+    .cardItem-showdriver{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.tab-driverDetail{
+    margin: auto;
+    width: 80%;
+}
+
+.Breadcrumb-driver{
+    margin: 1rem 0px 2rem 2rem;
+    display: flex;
+    justify-content: start;
+}

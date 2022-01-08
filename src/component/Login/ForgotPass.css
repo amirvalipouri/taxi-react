@@ -1,0 +1,143 @@
+.container-Forgetpass{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100%;
+}
+
+.forgotpass{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 30%;
+    transition: all 0.3ms;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 35%;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.card-forgotpass{
+    width: 80%;
+    height: auto;
+    margin-top: 5rem;
+}
+
+@media screen and (max-width : 768px) {
+    .container-Forgetpass{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .forgotpass{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        box-shadow: none;
+        position: sticky;
+
+    }
+    .card-forgotpass{
+        margin: auto;
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .card-forgotpass-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+    }
+}
+
+
+.card-forgotpass-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.card-forgotpass-header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+.card-forgotpass-header  h3{
+    color: #BDBDBD;
+}
+
+.card-forgotpass-header  p{
+    height: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.card-forgotpass-header  img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+.ResetPass-Button{
+    color: rgb(245, 66, 66);
+    width: 7.5rem;
+    font-weight: bold;
+    background-color: rgb(241, 197, 197);
+    border: none;
+    outline: none;
+    border-radius:10px;
+    padding: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+
+.ResetPass-Button:hover{
+    background-color: rgb(240, 167, 167);
+}
+
+.btn-forgotpass{
+    margin-top: 2rem;
+}
+
+.btn-forgotpass p {
+    height: 15px;
+    font-family: 'Mukta', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    color: #9E9E9E;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.btn-forgotpass p:hover{
+    color: #1A73E7;
+}
+
+.form-forget{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 1rem;
+
+}
+

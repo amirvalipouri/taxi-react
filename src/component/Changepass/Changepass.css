@@ -1,0 +1,82 @@
+.Divchangepassword-admin{
+    width: 300px;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    margin-top: 2rem;
+    border-radius: 15px;
+    padding: 1rem;
+    height: auto;
+}
+
+.changepass-svg{
+    border: 1px solid white;
+    background-color: #1E90FF;
+    width: 60%;
+    margin:auto;
+}
+
+.changepass-svg img {
+    width: 200px;
+    height: 200px;
+}
+
+.changepass-title h3{
+    font-family: 'Playfair Display', serif; 
+
+}
+
+.Change-pass{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.changepassword-breadcrumb{
+    margin-top: 1rem;
+}
+
+.form-admin-changepass{
+    width: 100%;
+}
+
+.changepassword-admin{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem 0px;
+
+}
+
+.changepass-input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.changepass-input:focus{
+    border: none;
+    border-bottom: 1px solid skyblue;
+}
+
+
+.changepass-btn{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 1rem;
+    padding: 15px;
+}
+
+.warning-changepass{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid red;
+}
+
+.warning-changepass:focus{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid red;
+}

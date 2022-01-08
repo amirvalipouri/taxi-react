@@ -1,0 +1,59 @@
+.container-bank{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bankCard{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, #845ec2, #288ff1, #00b9ff, #00ddf6, #4ffbdf);
+    box-shadow: 1.9px 3.8px 3.8px hsl(0deg 0% 0% / 0.44);
+    min-width: 300px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 2rem ;
+    transition: all .3s;
+
+}
+
+.bankCard:hover{
+    transform: translate(0px , -10px);
+}
+
+.bankCard h1{
+    color: white;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+} 
+
+
+.bankCard p{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+} 
+
+.deposit {
+    background-color: #8965c4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    padding: 5px;
+    margin-bottom: 2rem ;
+
+}
+
+.harvest{
+    background-color: #C4FCEF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    padding: 5px;
+    margin-bottom: 2rem ;
+}

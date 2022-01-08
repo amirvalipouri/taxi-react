@@ -1,0 +1,197 @@
+.dashboard-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    height: 5rem;
+}
+
+
+
+.dashboard-header-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.dashboard-date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dashboard-date span {
+    margin-right: 5px;
+    background-color: #dcdcdc;
+    padding: 3px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 2rem;
+}
+
+.dashboard-date p {
+    font-weight: 500;
+    margin-top: 7px;
+}
+
+.dashboardP{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.driver-status{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+
+}
+
+/* .driver-status img {
+    width: 35px;
+    height: 35px;
+} */
+
+.driver-status-numbers{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.status span {
+    height: 5rem;
+    width: 2px;
+    border: 1px solid #dcdcdc;
+    margin: 1rem;
+}
+
+.driver-status-title{
+    color: #9e9e9e;
+
+    font-weight: 500;
+}
+
+.dashboard-chart{
+    width: 100%;
+    margin: 1px 0px 5px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    min-width : 350px
+    
+}
+
+.Linechart{
+    overflow-x: auto;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.Dashboard-table-div{
+    width: 100%;
+    padding: 1rem;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 30rem;
+    background-color: white;
+}
+
+/* last trip */
+
+.table-Dashboard{
+    width: 100%;
+}
+
+.table-Dashboard span {
+    cursor: pointer;
+}
+
+.table-Dashboard th {
+    background: #fafafa;
+    color: black;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background .3s ease;
+    font-weight: 500;
+}
+
+.driver-name{
+    color: skyblue;
+}
+
+.rider-name{
+    color: #7CFC00;
+}
+
+.payment-RiderDetails{
+    background-color: greenyellow;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+
+}
+
+
+@media screen and (max-width : 768px) {
+    .dashboard-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        width: 100%;
+        height: auto;
+        
+    } 
+
+    .status{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .driver-status{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .status span {
+        display: none;
+    }
+
+    .driver-status-title{
+        margin-right: 10px;
+    }
+
+    .dashboard-chart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .Linechart{
+        padding-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}

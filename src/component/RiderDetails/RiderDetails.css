@@ -1,0 +1,55 @@
+.container-riderDetails{
+    padding-top: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width : 750px){
+    .tablee-div{
+        width: 100%;
+        overflow-x: auto;
+    }
+}
+
+.tablee-div{
+    margin: auto;
+    width: 80%;
+    overflow-x: auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+
+.table-tag{
+    width: 100%;
+}
+
+.table-tag th {
+    background: #fafafa;
+    color: black;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background .3s ease;
+    font-weight: 500;
+}
+
+.driver-name{
+    color: skyblue;
+}
+
+.payment-RiderDetails{
+    background-color: greenyellow;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+
+}
+
+.Breadcrumb-driver{
+    margin: 1rem 0px 2rem 2rem;
+    
+}
+
+
+.tab-riderDetails{
+    margin: auto;
+    width: 80%;
+}

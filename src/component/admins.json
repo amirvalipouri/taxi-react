@@ -1,0 +1,28 @@
+[
+    {
+        "name" : "ali",
+        "password" : "111",
+        "id" : 1,
+        "accesses" : "admin"
+    },
+    {
+        "name" : "amir",
+        "password" : "222",
+        "id" : 2,
+        "accesses" : "admin"
+    },
+    {
+        "name" : "mamamd",
+        "password" : "333",
+        "id" : 3,
+        "accesses" : "admin"
+    },
+    {
+        "name" : "hosein",
+        "password" : "444",
+        "id" : 4,
+        "accesses" : "admin"
+    }
+    
+
+]

@@ -1,0 +1,109 @@
+.btn-docs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.formInput-Document{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formInput-Document input{
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.formInput-Document input:focus{
+    border-bottom: 1px solid skyblue;
+}
+
+.div-Form-Description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showlist-doc{
+    display: grid;
+    grid-template-columns: 45% 45% ;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media (max-width : 750px){
+    .showlist-doc{
+        display: flex; 
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.cardItem-docs{
+    margin: 10px 0 10px 0;
+    box-shadow: 0 2px 4px black;
+}
+
+
+.card-title-Docs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px 0 5px 0;
+}
+
+.card-body-Docs{
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px 0 5px 0;
+}
+
+.cross-icon{
+    color: red;
+    cursor: pointer;
+}
+
+.card-Docs{
+    width: 100%;
+    min-width: 80%;
+
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.warning-des{
+    border:none;
+  border-bottom: 1px solid red ;   
+  width: 60%;
+
+}
+
+.warning-des:focus{
+    border:none;
+  border-bottom: 1px solid red ;   
+  width: 60%;
+  
+}
+
+
+.DocImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DocImg img {
+    width: 250px;
+    height: 250px;
+}

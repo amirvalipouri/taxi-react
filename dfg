@@ -1,0 +1,102 @@
+[33mcommit 193d506e587ff39dedaabe96ca2c26a300d681eb[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m)[m
+Author: Amir valipouri <amir.valipouri@yahoo.com>
+Date:   Sat Sep 25 12:10:10 2021 +0330
+
+    complain validation with useInput hooks!
+
+[33mcommit eed4ea468b3ff669a2883acc657f7520b74dcf6b[m
+Author: Amir valipouri <amir.valipouri@yahoo.com>
+Date:   Sat Sep 25 11:59:37 2021 +0330
+
+    status change to accesses in Admin
+
+[33mcommit d2dd969e85fdc9315473640106c841133b7b2012[m
+Author: Amir valipouri <amir.valipouri@yahoo.com>
+Date:   Sat Sep 25 11:33:56 2021 +0330
+
+    changepassword API works.
+
+[33mcommit 9985904be399ac646563df7c9c4ae4019417e2ca[m
+Author: Amir valipouri <amir.valipouri@yahoo.com>
+Date:   Mon Sep 20 17:39:41 2021 +0430
+
+    FormCar.js input validation changed to custome hooks
+
+[33mcommit 31f27cefd38affc32d6cc0b1072f8496a5cf72a6[m[33m ([m[1;32mFront[m[33m)[m
+Author: Amir valipouri <amir.valipouri@yahoo.com>
+Date:   Mon Sep 20 17:03:04 2021 +0430
+
+    ChangePass.js input validation change to custome hook
+
+[33mcommit 48d6a321b8abbd4b2b7a5b969311713c61ed5ca5[m
+Author: Amir valipouri <amir.valipouri@yahoo.com>
+Date:   Mon Sep 20 16:09:59 2021 +0430
+
+    FormDocs.js validation input change with custome hook!
+
+[33mcommit 08b89a6c275952e7af499eebedc61810a0f1dec6[m
+Author: Amir valipouri <amir.valipouri@yahoo.com>
+Date:   Mon Sep 20 15:25:14 2021 +0430
+
+    showpassword complieted!
+
+[33mcommit f9a472362c5c4a95890e0d6eff25b380f795c618[m
+Author: Amir valipouri <amir.valipouri@yahoo.com>
+Date:   Mon Sep 20 12:31:50 2021 +0430
+
+    login button disabled work
+
+[33mcommit 76973cbe4c8d32c65a24e74f585f0a1aa3778622[m
+Author: Amir valipouri <amir.valipouri@yahoo.com>
+Date:   Mon Sep 20 12:24:59 2021 +0430
+
+    Add custome hook to validate input
+
+[33mcommit f4f3a9ddeb96842222fb71512a905bdb0e47a8a7[m
+Merge: b7abb70 2399af0
+Author: Amir valipouri <amir.valipouri@yahoo.com>
+Date:   Sat Sep 18 16:29:10 2021 +0430
+
+    Merge branch 'feature/change-password' into Front
+
+[33mcommit b7abb70a9a026eb81d6cb7a4093ac7d94594badd[m
+Author: Amir valipouri <amir.valipouri@yahoo.com>
+Date:   Sat Sep 18 15:58:22 2021 +0430
+
+    Responsive Login
+
+[33mcommit 20d41661f4347a85740df49f4201c3bdab244dfe[m
+Author: Amir valipouri <amir.valipouri@yahoo.com>
+Date:   Sat Sep 18 14:53:50 2021 +0430
+
+    Login Redesign and logout Button complied!
+
+[33mcommit 2399af073e9e6e65d7766873a726f3e31a6aa63d[m[33m ([m[1;32mfeature/change-password[m[33m)[m
+Author: Amir valipouri <amir.valipouri@yahoo.com>
+Date:   Sat Sep 18 14:48:56 2021 +0430
+
+    Test
+
+[33mcommit 22111e36e843491a8dca6351dd9ebfd3b01c850a[m[33m ([m[1;31morigin/feature/change-password[m[33m)[m
+Author: Amir valipouri <amir.valipouri@yahoo.com>
+Date:   Wed Sep 15 17:29:00 2021 +0430
+
+    added changepasword with api
+
+[33mcommit 8973610a25321ed87a0e9219c3786f015c89c7af[m
+Author: Amir valipouri <amir.valipouri@yahoo.com>
+Date:   Tue Sep 14 18:02:53 2021 +0430
+
+    few changes
+
+[33mcommit 0dc47a1452318aa5bb0e737dff6febf8f30beb44[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: Amir valipouri <amir.valipouri@yahoo.com>
+Date:   Tue Sep 14 13:19:25 2021 +0430
+
+    -Added proejcts files.
+
+[33mcommit 40e2056105bb0a1ec3cf0bcd5977cae8f4f0d853[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: unknown <amir.valipouri@yahoo.com>
+Date:   Tue Sep 14 13:12:06 2021 +0430
+
+    Initial commit.

@@ -1,0 +1,34 @@
+.container-driverPayment{
+    width: 100%;
+    height: auto;
+}
+
+.chart-driver{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0px;
+}
+
+
+.driver-table-div{
+    width:90%;
+    margin: auto;
+    overflow-x: auto;
+    height: 25rem;
+    overflow-y: auto;
+}
+
+
+
+.table-tag-driver{
+    width: 100%;
+}
+
+.table-tag-driver th {
+    background: #fafafa;
+    color: black;
+    border-bottom: 1px solid #f0f0f0;
+    font-weight: 500;
+}

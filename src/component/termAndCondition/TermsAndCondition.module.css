@@ -1,0 +1,36 @@
+.containerTerm {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+@media (max-width : 750px) {
+    .term-card{
+        width: 100% ;
+    }
+}
+
+.term-card{
+    width: 80%;
+}
+
+.term-title h1 {
+    font-weight: bold;
+}
+
+.term-body{
+    margin-left: 1.5rem;
+}
+
+.term-rule {
+    margin-bottom: 2rem;
+}
+
+
+.term-rule h3 {
+    margin-top: 1rem;
+}
